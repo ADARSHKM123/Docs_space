@@ -4,6 +4,7 @@
 **Role:** Full Stack Product Engineer, Ajaia LLC
 
 ## Links
+- **Google Drive folder:** https://drive.google.com/drive/folders/1LChaHUqOyS52kn2vSqfnyvC0ILTafx1P?usp=sharing
 - **Live app:** https://docs-space.vercel.app/
 - **Source code:** https://github.com/ADARSHKM123/Docs_space
 - **Walkthrough video:** https://www.loom.com/share/15375889f26649ccb37b2cd44464c84c (also in `VIDEO.txt`)
