@@ -6,7 +6,7 @@
 ## Links
 - **Live app:** https://docs-space.vercel.app/
 - **Source code:** https://github.com/ADARSHKM123/Docs_space
-- **Walkthrough video:** _TODO: paste link_ (also in `VIDEO.txt`)
+- **Walkthrough video:** https://www.loom.com/share/15375889f26649ccb37b2cd44464c84c (also in `VIDEO.txt`)
 
 ## Test accounts
 | Email | Password |
