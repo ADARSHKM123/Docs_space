@@ -2,7 +2,7 @@
 
 A lightweight collaborative document editor: create, edit with rich text, upload files, and share documents with other users.
 
-**Live demo:** _TODO: Vercel URL_
+**Live demo:** https://docs-space.vercel.app/
 **Walkthrough video:** see `VIDEO.txt`
 
 ## Test accounts
