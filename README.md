@@ -9,9 +9,9 @@ A lightweight collaborative document editor: create, edit with rich text, upload
 
 | Email | Password |
 |---|---|
-| alice@test.com | `Ajaia-demo-2026` |
-| bob@test.com | `Ajaia-demo-2026` |
-| carol@test.com | `Ajaia-demo-2026` |
+| alice@test.com | `Test@12345` |
+| bob@test.com | `Test@12345` |
+| carol@test.com | `Test@12345` |
 
 **Try sharing:** sign in as Alice → New document → type something → **Share** → `bob@test.com`. Sign out, sign in as Bob → **Shared with me** → open it and edit. Alice sees Bob's edits after refresh.
 
