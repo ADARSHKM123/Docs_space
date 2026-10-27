@@ -71,8 +71,9 @@ create policy profiles_select on public.profiles for select to authenticated usi
 );
 
 -- Documents: owner or shared user can read and edit; only the owner can create-as-self and delete.
+-- owner_id check is inline: on INSERT ... RETURNING the helper can't see the brand-new row yet.
 create policy documents_select on public.documents for select to authenticated
-  using (public.can_access_doc(id));
+  using (owner_id = auth.uid() or public.can_access_doc(id));
 create policy documents_insert on public.documents for insert to authenticated
   with check (owner_id = auth.uid());
 create policy documents_update on public.documents for update to authenticated
