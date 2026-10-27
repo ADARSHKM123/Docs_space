@@ -1,4 +1,4 @@
-# Ajaia Docs
+# Docs Space
 
 A lightweight collaborative document editor: create, edit with rich text, upload files, and share documents with other users.
 

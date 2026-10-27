@@ -39,7 +39,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <a href="#/" className="brand">Ajaia Docs</a>
+        <a href="#/" className="brand">Docs Space</a>
         <span className="spacer" />
         <span className="muted">{user.email}</span>
         <button onClick={() => { location.hash = ''; supabase.auth.signOut() }}>Sign out</button>

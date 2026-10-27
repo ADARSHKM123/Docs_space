@@ -21,7 +21,7 @@ export default function Login() {
   return (
     <div className="center">
       <form className="card login" onSubmit={submit}>
-        <h1>Ajaia Docs</h1>
+        <h1>Docs Space</h1>
         <label>Email<input type="email" value={email} onChange={e => setEmail(e.target.value)} required autoFocus /></label>
         <label>Password<input type="password" value={password} onChange={e => setPassword(e.target.value)} required /></label>
         {error && <p className="error">{error}</p>}

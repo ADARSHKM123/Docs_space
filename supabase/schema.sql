@@ -1,4 +1,4 @@
--- Ajaia Docs schema. Run once in the Supabase SQL editor (safe on a fresh project).
+-- Docs Space schema. Run once in the Supabase SQL editor (safe on a fresh project).
 
 -- ---------- Tables ----------
 create table public.profiles (
