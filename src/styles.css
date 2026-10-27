@@ -1,0 +1,60 @@
+:root {
+  --bg: #f4f5f7; --surface: #fff; --text: #1d2330; --muted: #6b7280; --border: #dde1e7;
+  --accent: #1f3a93; --accent-text: #fff; --danger: #b42318; --ok: #067647;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; color: var(--text); background: var(--bg);
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: var(--accent); text-decoration: none; }
+button {
+  font: inherit; padding: 6px 12px; border: 1px solid var(--border); border-radius: 6px;
+  background: var(--surface); color: var(--text); cursor: pointer;
+}
+button:hover { border-color: #aab2bf; }
+button:disabled { opacity: .6; cursor: default; }
+button.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+button.danger { color: var(--danger); }
+button.small, .small { font-size: 13px; }
+button.link { border: 0; padding: 0 4px; color: var(--accent); background: none; text-decoration: underline; }
+input { font: inherit; padding: 8px 10px; border: 1px solid var(--border); border-radius: 6px; width: 100%; }
+label { display: grid; gap: 4px; font-size: 14px; }
+.muted { color: var(--muted); }
+.error { color: var(--danger); }
+.ok { color: var(--ok); }
+.spacer { flex: 1; }
+.center { min-height: 100vh; display: grid; place-items: center; padding: 16px; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 24px; }
+.login { width: min(380px, 100%); display: grid; gap: 14px; }
+.login h1 { margin: 0; font-size: 22px; }
+.topbar { display: flex; align-items: center; gap: 12px; padding: 10px 20px; background: var(--surface); border-bottom: 1px solid var(--border); }
+.brand { font-weight: 700; font-size: 18px; }
+.page { max-width: 900px; margin: 0 auto; padding: 20px 16px; }
+.toolbar-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.tabs { display: flex; gap: 4px; }
+.tabs button.active { background: var(--text); color: #fff; border-color: var(--text); }
+.doclist { list-style: none; padding: 0; margin: 16px 0; display: grid; gap: 8px; }
+.doclist li { display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+.doclink { flex: 1; display: grid; gap: 4px; color: var(--text); }
+.badge { display: inline-block; background: #e8edfb; color: var(--accent); border-radius: 999px; padding: 2px 8px; margin-right: 8px; font-size: 12px; }
+.empty { padding: 32px 0; text-align: center; }
+.title-input { flex: 1; min-width: 180px; font-size: 20px; font-weight: 600; border-color: transparent; }
+.title-input:hover, .title-input:focus { border-color: var(--border); }
+.title-input.invalid { border-color: var(--danger); }
+.status { font-size: 13px; color: var(--muted); }
+.status.error { color: var(--danger); }
+.format-bar { display: flex; flex-wrap: wrap; gap: 4px; margin: 12px 0 8px; padding: 6px; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; position: sticky; top: 0; z-index: 1; }
+.format-bar button { padding: 4px 10px; min-width: 34px; }
+.format-bar button.active { background: #e8edfb; border-color: var(--accent); color: var(--accent); }
+.sep { width: 1px; background: var(--border); margin: 0 4px; }
+.paper { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; min-height: 60vh; padding: 32px 40px; }
+.paper .tiptap { outline: none; min-height: 55vh; line-height: 1.6; }
+.paper .tiptap p { margin: 0 0 .7em; }
+@media (max-width: 600px) { .paper { padding: 16px; } }
+.backdrop { position: fixed; inset: 0; background: rgba(0,0,0,.35); display: grid; place-items: center; padding: 16px; z-index: 10; }
+.dialog { width: min(460px, 100%); display: grid; gap: 10px; }
+.dialog h2 { margin: 0; font-size: 18px; }
+.dialog h3 { margin: 8px 0 0; font-size: 14px; }
+.row { display: flex; gap: 8px; }
+.row.end { justify-content: flex-end; }
+.sharelist { list-style: none; padding: 0; margin: 0; display: grid; gap: 6px; }
+.sharelist li { display: flex; justify-content: space-between; align-items: center; }
